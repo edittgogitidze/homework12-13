@@ -19,6 +19,9 @@
      .picture-class{
         width: 100%;
      }
+     .picture-class h5{
+        margin: 18px 0px 37px 0px;
+     }
     }
 
 @media(max-width:600px){
@@ -37,5 +40,16 @@
     }
     .nav-user {
         order: 3;
+    }
+    .discovery-class{
+        row-gap: 6px;
+    }
+    .discovery-class h3{
+        font-size: 24px;
+    }
+    .photo-zone{
+        flex-direction: column;
+        width: 100%;
+        row-gap: 18px;
     }
 }

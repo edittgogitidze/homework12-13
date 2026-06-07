@@ -108,6 +108,7 @@
   letter-spacing: 0%;
   font-family: "Kanit";
   color: #000000;
+  margin: 18px 0px 28px 0px;
 }
 
 span {
@@ -118,3 +119,16 @@ span {
   font-family: "Kanit";
   color: #000000;
 }
+.clock-class {
+  display: flex;
+  align-items: center;
+  column-gap: 11px;
+}
+.clock-class h6 {
+  font-family: Kanit;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
