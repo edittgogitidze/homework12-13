@@ -1,48 +1,120 @@
 /*header*/
 
-.header-class{
-    max-width: 1440px;
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.header-class {
+  max-width: 1440px;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.for-logo{
-    display: flex;
-    column-gap: 14px;
-    align-items: center;
+.for-logo {
+  display: flex;
+  column-gap: 14px;
+  align-items: center;
 }
-.for-logo h5{
-font-weight: 400;
-font-size: 18px;
-line-height: 100%;
-letter-spacing: 0%;
-color: #FA793C;
-font-family: 'Pridi';
+.for-logo h5 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #fa793c;
+  font-family: "Pridi";
 }
-.navigation{
-    display: flex;
-    align-items: center;
+.navigation {
+  display: flex;
+  align-items: center;
 }
 
-.nav-user{
-    display: flex;
-    column-gap: 40px;
+.nav-user {
+  display: flex;
+  column-gap: 40px;
 }
-.ul-list{
-    display: flex;
-    column-gap: 15px;
+.ul-list {
+  display: flex;
+  column-gap: 15px;
 }
-.ul-list a{
-font-weight: 400;
-font-size: 16px;
-line-height: 100%;
-letter-spacing: 0%;
-font-family: 'ABeeZee';
-color:#000000 ;
+.ul-list a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  font-family: "ABeeZee";
+  color: #000000;
+}
+.burger-bar {
+  display: none;
+}
 
+/*first-section*/
+/* .bg-class {
+  height: 600px;
+  background-image: url(../images/mainphoto.png);
 }
-.burger-bar{
-    display: none;
+.main-photo {
+  max-width: 1182px;
+  width: 90%;
+  column-gap: 165.5px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-block {
+  width: 576px;
+  
+}
+.right-block {
+  background-color: #ffffff;
+  width: 440px;
+  
+  padding: 27px 41.5px 33px 38.5px;
+} */
+
+/*second section*/
+
+.discovery-class {
+  max-width: 1440px;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 34px;
+  margin-top: 33px;
+}
+.photo-zone {
+  display: flex;
+  column-gap: 15px;
+}
+.img-style {
+  width: 100%;
+  display: block;
+}
+.discovery-class h3 {
+  font-family: Kanit;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.picture-class {
+  width: 380px;
+}
+.picture-class h5 {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  font-family: "Kanit";
+  color: #000000;
+}
+
+span {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  font-family: "Kanit";
+  color: #000000;
 }

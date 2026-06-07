@@ -1,3 +1,26 @@
+@media(max-width:834px){
+    /* .main-photo{
+        height: auto;
+        flex-direction: column;
+
+    }
+    .left-block{
+        height: auto;
+        width: 100%;
+    }
+    .right-block{
+        height: auto;
+        width: 100%;
+    } */
+
+     .different-picture{
+        display: none;
+     }
+     .picture-class{
+        width: 100%;
+     }
+    }
+
 @media(max-width:600px){
 .ul-list{
     display: none;
