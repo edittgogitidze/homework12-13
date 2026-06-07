@@ -1,0 +1,24 @@
+/*header*/
+
+.header-class{
+    max-width: 1440px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.for-logo{
+    display: flex;
+    column-gap: 14px;
+    align-items: center;
+}
+.nav-user{
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+}
+.ul-list{
+    display: flex;
+    column-gap: 15px;
+}
