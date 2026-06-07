@@ -141,26 +141,71 @@ span {
   flex-direction: column;
   margin-top: 52px;
 }
-.main-div{
-    display: flex;
-    column-gap: 20px;
+.main-div {
+  display: flex;
+  column-gap: 20px;
 }
-.left-div{
-    max-width: 779px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    row-gap: 86px;
+.left-div {
+  max-width: 779px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 86px;
 }
-.first-pic{
-    background-image: url(../images/thirdsect1.jpg);
-    height: 400px;
-    
-    background-repeat: no-repeat;
+.first-pic {
+  background-image: url(../images/thirdsect1.jpg);
+  height: 400px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 232px 36px 70px;
 }
-.second-pic{
-    background-image: url(../images/thirdsect2.jpg);
-    height: 400px;
 
-    background-repeat: no-repeat;
+.second-pic {
+  background-image: url(../images/thirdsect2.jpg);
+  height: 400px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 232px 36px 83px;
+}
+
+.photograph-class h3 {
+  font-family: Kanit;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #000000;
+  margin-bottom: 34px;
+}
+.left-div h4 {
+  font-family: Kanit;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.left-div h6 {
+  font-family: Kanit;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+.right-div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 23px;
+}
+.border-class {
+  border: 1px solid #000000;
+}
+.for-padd{
+    padding: 18px 20px 15px;
 }
