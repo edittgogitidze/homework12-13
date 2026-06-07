@@ -1,0 +1,18 @@
+@media(max-width:600px){
+.ul-list{
+    display: none;
+}
+}
+
+@media(max-width: 375px){
+    .burger-bar{
+        display: block;
+        order: 1;
+    }
+    .for-logo{
+        order: 2;
+    }
+    .nav-user {
+        order: 3;
+    }
+}

@@ -13,12 +13,36 @@
     column-gap: 14px;
     align-items: center;
 }
-.nav-user{
+.for-logo h5{
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #FA793C;
+font-family: 'Pridi';
+}
+.navigation{
     display: flex;
     align-items: center;
+}
+
+.nav-user{
+    display: flex;
     column-gap: 40px;
 }
 .ul-list{
     display: flex;
     column-gap: 15px;
+}
+.ul-list a{
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+font-family: 'ABeeZee';
+color:#000000 ;
+
+}
+.burger-bar{
+    display: none;
 }
