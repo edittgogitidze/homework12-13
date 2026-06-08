@@ -164,6 +164,7 @@ body {
 .for-dist {
   margin-bottom: 8px;
 } */
+
 /*second section*/
 
 .discovery-class {
@@ -171,8 +172,6 @@ body {
   width: 90%;
   margin: 0 auto;
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
   row-gap: 34px;
   margin-top: 33px;
@@ -193,6 +192,9 @@ body {
   letter-spacing: 0%;
 }
 
+.picture-class{
+  border: 1px solid #000000;
+}
 .picture-class h5 {
   font-weight: 400;
   font-style: Regular;
@@ -231,8 +233,6 @@ span {
   width: 90%;
   margin: 0 auto;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
   margin-top: 52px;
 }
