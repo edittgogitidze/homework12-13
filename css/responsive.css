@@ -1,6 +1,20 @@
 @media(max-width:834px){ 
-
-
+    .bg-class{
+        height: auto;
+    }
+    .main-photo{
+        flex-direction: column;
+        row-gap: 193px;
+        
+    }
+    .left-block{
+        height: auto;
+        width: 100%;
+    }
+    .right-block{
+        height: auto;
+        width: 100%;
+    }
      .different-picture{
         display: none;
      }
