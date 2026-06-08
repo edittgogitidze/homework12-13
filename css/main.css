@@ -1,9 +1,9 @@
-body{
+body {
   background-color: chocolate;
 }
 /*header*/
 .header-class {
-  max-width: 1440px;
+  max-width: 1310px;
   width: 90%;
   margin: 0 auto;
   display: flex;
@@ -56,9 +56,11 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .main-photo {
-  max-width: 1184px;
+  max-width: 1200px;
   width: 100%;
   margin: 0 auto;
   display: flex;
@@ -67,18 +69,77 @@ body{
 .left-block {
   width: 576px;
   background-color: aqua;
-  
+  display: flex;
+  flex-direction: column;
+  row-gap: 21px;
+  padding: 10px 0px;
+}
+.left-block h1 {
+  font-family: Kanit;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+.left-block p {
+  font-family: Kanit;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #fff;
 }
 .right-block {
   background-color: #ffffff;
   width: 440px;
+  padding: 27px 38.5px;
+}
+.arrow-class {
+  display: flex;
+  justify-content: space-between;
+}
+.arrow-class h3 {
+  font-family: Kanit;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #000000;
+}
+.arrow-block{
+  display: flex;
+  column-gap: 19px;
+  align-items: center;
 
 }
-
+.first-arrow{
+  width: 24px;
+  height: 24px;
+  color: #787878;
+  border: 1px solid blueviolet;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.sec-arrow{
+  width: 24px;
+  height: 24px;
+  color: #fff;
+  border: 1px solid blueviolet;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #FA793C;
+}
 /*second section*/
 
 .discovery-class {
-  max-width: 1184px;
+  max-width: 1200px;
   width: 90%;
   margin: 0 auto;
   display: flex;
@@ -219,17 +280,17 @@ span {
 }
 
 /*footer*/
-footer{
+footer {
   background-color: #000000;
 }
 .footer-logo {
-  max-width: 1440px;
+  max-width: 1px;
   width: 100%;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
- 
+
   color: #ffffff;
   column-gap: 5px;
   padding: 31px 0px;
