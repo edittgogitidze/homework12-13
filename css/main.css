@@ -178,7 +178,7 @@ body {
 }
 .photo-zone {
   display: flex;
-  column-gap: 15px;
+  column-gap: 20px;
 }
 .img-style {
   width: 100%;
@@ -194,6 +194,7 @@ body {
 
 .picture-class{
   border: 1px solid #000000;
+  width: 380px;
 }
 .picture-class h5 {
   font-weight: 400;
@@ -243,9 +244,11 @@ span {
 .left-div {
   max-width: 779px;
   width: 100%;
+  height: 400%;
   display: flex;
   flex-direction: column;
   row-gap: 86px;
+  align-items: center;
 }
 .first-pic {
   background-image: url(../images/thirdsect1.jpg);

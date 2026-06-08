@@ -1,5 +1,5 @@
-@media(max-width:834px){ 
-    /* .bg-class{
+@media (max-width: 834px) {
+  /* .bg-class{
         height: auto;
     }
     .main-photo{
@@ -15,66 +15,88 @@
         height: auto;
         width: 100%;
     } */
-     .different-picture{
-        display: none;
-     }
-
-     .picture-class{
-        width: 100%;
-     }
-     .picture-class h5{
-        margin: 18px 0px 37px 0px;
-     }
-     .main-div{
-        flex-direction: column;
-        row-gap: 40px;
-     }
-     .left-div{
-        display: flex;
-        flex-direction: column;
-        row-gap: 32px;
-     }
-     .right-div{
-        flex-direction: row;
-        column-gap: 20px;
-     }
-     .disp-none{
-        display: none;
-     }
-    }
-
-@media(max-width:600px){
-.ul-list{
+  .different-picture {
     display: none;
-}
+  }
+
+  .picture-class {
+    width: 100%;
+  }
+  .picture-class h5 {
+    margin: 18px 0px 37px 0px;
+  }
+  .main-div {
+    flex-direction: column;
+    row-gap: 40px;
+  }
+  .left-div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+    height: auto;
+  }
+  .right-div {
+    flex-direction: row;
+    column-gap: 20px;
+  }
+  .disp-none {
+    display: none;
+  }
+  .photo-zone {
+    column-gap: 18px;
+  }
+  .discovery-class {
+    row-gap: 30px;
+  }
+  .left-div h6 {
+    font-size: 14px;
+  }
+  .left-div h4{
+    font-size: 28px;
+  }
 }
 
-@media(max-width: 375px){
-    .burger-bar{
-        display: block;
-        order: 1;
-    }
-    .for-logo{
-        order: 2;
-    }
-    .nav-user {
-        order: 3;
-    }
-    .discovery-class{
-        row-gap: 6px;
-    }
-    .discovery-class h3{
-        font-size: 24px;
-    }
-    .photo-zone{
-        flex-direction: column;
-        width: 100%;
-        row-gap: 18px;
-    }
-    .main-div{
-        flex-direction: column;
-    }
-    .none-class{
-        display: none;
-    }
+@media (max-width: 600px) {
+  .ul-list {
+    display: none;
+  }
+}
+
+@media (max-width: 375px) {
+  .burger-bar {
+    display: block;
+    order: 1;
+  }
+  .for-logo {
+    order: 2;
+  }
+  .nav-user {
+    order: 3;
+  }
+  .discovery-class {
+    row-gap: 6px;
+  }
+  .discovery-class h3 {
+    font-size: 24px;
+  }
+  .photo-zone {
+    flex-direction: column;
+    width: 100%;
+    row-gap: 18px;
+  }
+  .main-div {
+    flex-direction: column;
+  }
+  .none-class {
+    display: none;
+  }
+  .left-div {
+    row-gap: 36px;
+  }
+  .left-div h6 {
+    font-size: 12px;
+  }
+  .left-div h4{
+    font-size: 24px;
+  }
 }
