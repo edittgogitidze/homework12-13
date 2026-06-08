@@ -1,17 +1,5 @@
-@media(max-width:834px){
-    /* .main-photo{
-        height: auto;
-        flex-direction: column;
+@media(max-width:834px){ 
 
-    }
-    .left-block{
-        height: auto;
-        width: 100%;
-    }
-    .right-block{
-        height: auto;
-        width: 100%;
-    } */
 
      .different-picture{
         display: none;

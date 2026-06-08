@@ -4,7 +4,7 @@ body{
 /*header*/
 .header-class {
   max-width: 1440px;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -53,25 +53,26 @@ body{
 .bg-class {
   height: 600px;
   background-image: url(../images/mainphoto.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .main-photo {
   max-width: 1184px;
-  width: 90%;
-  column-gap: 165.5px;
+  width: 100%;
   margin: 0 auto;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  column-gap: 165.5px;
 }
 .left-block {
   width: 576px;
+  background-color: aqua;
   
 }
 .right-block {
   background-color: #ffffff;
   width: 440px;
-  
-  padding: 27px 41.5px 33px 38.5px;
+
 }
 
 /*second section*/
