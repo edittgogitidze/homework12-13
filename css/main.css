@@ -25,7 +25,7 @@ body {
   color: #fa793c;
   font-family: "Pridi";
 }
-@-webkit-keyframes .for-logo h5 {
+.for-logo h5 {
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
@@ -33,14 +33,7 @@ body {
   color: #fa793c;
   font-family: "Pridi";
 }
-@keyframes .for-logo h5 {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 100%;
-  letter-spacing: 0%;
-  color: #fa793c;
-  font-family: "Pridi";
-}
+
 .navigation {
   display: flex;
   align-items: center;
@@ -382,11 +375,7 @@ footer {
   border: 0.5px solid gray;
   margin: 5px 0px;
 }
-.button-class {
-  display: flex;
-  -moz-column-gap:30px ;
-       column-gap: 30px;  
-}
+
 .button-class button {
   padding: 7px 20px;
   border-radius: 10px;
